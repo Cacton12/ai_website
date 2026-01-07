@@ -77,8 +77,7 @@ export default function Home() {
             AI Background Remover
           </h1>
           <p className="text-zinc-400 mb-0 max-w-2xl mx-auto">
-            Upload an image and remove the background instantly — no uploads
-            required.
+            Upload any image and remove the background instantly. Works best with photos of people
           </p>
         </header>
 
