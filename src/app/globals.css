@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Visual helpers for the progress bar and subtle animations */
+.progress-fill {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+  background-size: 200% 100%;
+}
+
+@keyframes stripe-move {
+  from { background-position: 0 0; }
+  to { background-position: -200% 0; }
+}
+
+.animate-stripes {
+  animation: stripe-move 2s linear infinite;
+}
