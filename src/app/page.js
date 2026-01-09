@@ -170,7 +170,7 @@ export default function Home() {
                       link.download = "no-background.png";
                       link.click();
                     }}
-                    className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-400 text-black rounded-lg font-medium hover:brightness-105 transition"
+                    className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-400 text-black rounded-lg font-medium hover:brightness-105 transition cursor-pointer"
                   >
                     ⤓ Download PNG
                   </button>
