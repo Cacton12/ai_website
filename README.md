@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Background Remover 🖼️🤖
 
-## Getting Started
+**AI Background Remover** is a privacy-focused web app that lets users remove the background from images directly in their browser. Powered by **Transformers.js**, the AI model runs entirely on the client side—so your images stay **private and secure**. Nothing is uploaded to a server; all processing happens locally in your browser.  
 
-First, run the development server:
+---
+
+## Features ✨
+
+- Remove backgrounds from images instantly  
+- All AI processing runs **locally in the browser**  
+- Zero data storage: uploaded images are never sent to a server  
+- Simple, user-friendly interface  
+- Fast and lightweight thanks to Transformers.js  
+
+---
+
+## Tech Stack 🛠️
+
+- **Frontend & Framework:** Next.js  
+- **AI:** Transformers.js (runs entirely in the browser)  
+- **Styling:** Tailwind CSS (optional if used)  
+- **Privacy:** Fully client-side processing—no server storage  
+
+---
+
+## How it Works 🔍
+
+1. Upload an image  
+2. The AI model detects the foreground  
+3. Background is removed **entirely in the browser**  
+4. Download or save your image locally  
+
+> All operations are **secure and private**, because nothing leaves your device.
+
+---
+
+## Why It’s Private 🔒
+
+Unlike traditional AI background removal tools that upload images to the cloud:  
+
+- No images are sent to a server  
+- No logging or tracking of uploaded files  
+- AI inference happens in-browser using your device’s resources  
+
+---
+
+## Local Set Up
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/photo-storage-frontend.git
+cd photo-storage-frontend
+npm install
+# or
+yarn install
+
+* start the server *
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn run dev
 ```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The app can be deployed anywhere that supports **Next.js**. Vercel is recommended for easy deployment:  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Connect your repository to [Vercel](https://vercel.com/)  
+2. Deploy as a standard Next.js app  
+3. Share your secure, client-side AI background remover with anyone  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## License 📝
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
